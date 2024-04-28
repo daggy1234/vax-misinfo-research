@@ -1,0 +1,37 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@nivo/bar": "^0.85.1",
+    "flexsearch": "^0.7.43",
+    "framer-motion": "^11.1.7",
+    "next": "14.2.2",
+    "nivo": "^0.31.0",
+    "react": "^18",
+    "react-d3-cloud": "^1.0.6",
+    "react-dom": "^18",
+    "react-icons": "^5.1.0",
+    "react-infinite-scroll-hook": "^4.1.1",
+    "react-wordcloud": "^1.2.7",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "typescript": "^5"
+  }
+}

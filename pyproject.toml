@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Arnav Jindal <arnav.jindal7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.27.0"
+pytz = "^2024.1"
+asyncpg = "^0.29.0"
+aiofiles = "^23.2.1"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+apscheduler = "^3.10.4"
+openai = "^1.23.6"
+tiktoken = "^0.6.0"
+redis = "^5.0.4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
